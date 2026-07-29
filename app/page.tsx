@@ -4,7 +4,9 @@ import { Features } from '@/components/features'
 import { VisionSection } from '@/components/vision-section'
 import { DownloadSection } from '@/components/download-section'
 import { SiteFooter } from '@/components/site-footer'
-import { PreRegisterForm } from '@/components/PreRegisterForm'
+// 7行目をこのように修正します
+import { PreRegisterForm } from '@/components/pre-register-form'
+
 
 export default function Page() {
   return (
