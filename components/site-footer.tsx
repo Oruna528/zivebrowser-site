@@ -11,6 +11,14 @@ export function SiteFooter() {
 
         <nav className="flex items-center gap-6" aria-label="フッターナビゲーション">
           <a
+            href="https://note.com/zive"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            note
+          </a>
+          <a
             href="https://github.com/Zive-Team/ZiveBrowser"
             target="_blank"
             rel="noopener noreferrer"

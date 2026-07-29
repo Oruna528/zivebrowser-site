@@ -25,6 +25,14 @@ export function SiteHeader() {
             Ziveとは
           </Link>
           <a
+            href="https://note.com/zive"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            note
+          </a>
+          <a
             href="https://github.com/Zive-Team/ZiveBrowser"
             target="_blank"
             rel="noopener noreferrer"

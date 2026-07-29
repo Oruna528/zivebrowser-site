@@ -35,7 +35,7 @@ export function Hero() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Zive Browser は Chromium ベースのミニマルなカスタムブラウザ。
+            世界レベルのオープンソースをベースにした、巨大テックに依存しないカスタムブラウザ。
             不要な機能を極限まで削ぎ落とし、コンテンツをありのまま、高速に表示します。
           </p>
 
