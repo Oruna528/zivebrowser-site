@@ -1,11 +1,11 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Geist_Mono, Noto_Sans_JP } from 'next/font/google'
 import './globals.css'
 
-const geistSans = Geist({
+const notoSansJP = Noto_Sans_JP({
   subsets: ['latin'],
-  variable: '--font-geist-sans',
+  variable: '--font-noto-sans-jp',
 })
 
 const geistMono = Geist_Mono({
@@ -53,7 +53,7 @@ export default function RootLayout({
   return (
     <html
       lang="ja"
-      className={`dark bg-background ${geistSans.variable} ${geistMono.variable}`}
+      className={`dark bg-background ${notoSansJP.variable} ${geistMono.variable}`}
     >
       <body className="font-sans antialiased">
         {children}

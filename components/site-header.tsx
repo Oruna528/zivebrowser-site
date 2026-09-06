@@ -13,16 +13,28 @@ export function SiteHeader() {
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="メインナビゲーション">
           <Link
-            href="#features"
+            href="/features"
             className="text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             特徴
           </Link>
           <Link
-            href="#about"
+            href="/download"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            ダウンロード
+          </Link>
+          <Link
+            href="/about"
             className="text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             Ziveとは
+          </Link>
+          <Link
+            href="/notes"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            開発記録
           </Link>
           <a
             href="https://note.com/zive"
@@ -42,7 +54,7 @@ export function SiteHeader() {
           </a>
         </nav>
 
-        <Button size="sm" nativeButton={false} render={<Link href="#register" />}>
+        <Button size="sm" nativeButton={false} render={<Link href="/register" />}>
           事前登録
         </Button>
       </div>

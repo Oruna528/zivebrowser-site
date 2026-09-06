@@ -9,7 +9,7 @@ export function SiteFooter() {
           <span className="text-sm font-medium">Zive Browser</span>
         </div>
 
-        <nav className="flex items-center gap-6" aria-label="フッターナビゲーション">
+        <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3" aria-label="フッターナビゲーション">
           <a
             href="https://note.com/zive"
             target="_blank"
