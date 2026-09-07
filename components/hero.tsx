@@ -22,7 +22,6 @@ export function Hero() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
             準備中
-          </span>
 
           <h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight sm:text-6xl">
             必要なものだけ。
