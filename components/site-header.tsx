@@ -55,7 +55,7 @@ export function SiteHeader() {
         </nav>
 
         <Button size="sm" nativeButton={false} render={<Link href="/register" />}>
-          事前登録
+          準備中
         </Button>
       </div>
     </header>

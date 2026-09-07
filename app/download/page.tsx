@@ -5,7 +5,7 @@ import { SiteFooter } from '@/components/site-footer'
 
 export const metadata: Metadata = {
   title: 'ダウンロード | Zive Browser',
-  description: 'Zive Browserの配信状況とダウンロード情報。現在は事前登録を受付中です。',
+  description: 'Zive Browserの配信状況とダウンロード情報。現在は準備中です。',
 }
 
 export default function DownloadPage() {
