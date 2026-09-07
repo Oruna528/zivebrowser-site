@@ -1,5 +1,4 @@
 // import { Apple, Monitor } from 'lucide-react' // ← ダウンロード版で使用
-import { Button } from '@/components/ui/button'
 
 export function DownloadSection() {
   return (
@@ -10,27 +9,14 @@ export function DownloadSection() {
             リリース前のため、ダウンロードボタンの代わりに事前登録へ誘導します。
         ===================================================================== */}
         <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-          ダウンロードは準備中です。
+          公開準備中です。
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-pretty text-muted-foreground">
-          Zive Browser は現在開発中です。配信準備が整い次第、このページでダウンロード方法をご案内します。
+          Zive Browser は現在開発中です。完成次第、このページでダウンロード方法をご案内します。
         </p>
-        <div className="mt-8 flex justify-center">
-          <Button
-            size="lg"
-            variant="outline"
-            nativeButton={false}
-            render={
-              <a
-                href="https://github.com/Zive-Team/ZiveBrowser"
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            }
-          >
-            GitHub で開発状況を見る
-          </Button>
-        </div>
+        <p className="mt-8 text-sm text-muted-foreground">
+          公開時には、このページからダウンロードできます。
+        </p>
         {/* ▲▲▲ 事前登録フェーズ ▲▲▲ */}
 
         {/* =====================================================================

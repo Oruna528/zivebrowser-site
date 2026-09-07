@@ -39,7 +39,7 @@ export function Hero() {
           </p>
 
           <div className="mx-auto mt-8 max-w-md rounded-2xl border border-border/70 bg-card px-5 py-4 text-sm text-muted-foreground">
-            事前登録の受付開始に向けて準備中です。
+            開発と公開の準備を進めています。完成次第、このサイトで公開します。
           </div>
         </div>
 
