@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
 import { ZiveLogo } from '@/components/zive-logo'
 
 export function SiteHeader() {
@@ -54,9 +53,6 @@ export function SiteHeader() {
           </a>
         </nav>
 
-        <Button size="sm" nativeButton={false} render={<Link href="/register" />}>
-          事前登録
-        </Button>
       </div>
     </header>
   )

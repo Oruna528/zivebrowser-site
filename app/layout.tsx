@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Zive Browser — 軽量・高速なChromiumベースブラウザ',
   description:
-    'ミニマルで高速なタブ機能を備えた、Chromiumベースのカスタムブラウザ。不要な機能を極限まで排除し、コンテンツをありのまま高速に表示します。現在、事前登録受付中。',
+    'ミニマルで高速なタブ機能を備えた、Chromiumベースのカスタムブラウザ。不要な機能を極限まで排除し、コンテンツをありのまま高速に表示します。完成次第、公開予定です。',
   generator: 'v0.app',
   icons: {
     icon: [

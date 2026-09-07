@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { PreRegisterForm } from '@/components/pre-register-form'
 
 export function Hero() {
   return (
@@ -25,7 +24,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-60" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            事前登録 受付中
+            準備中
           </span>
 
           <h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight sm:text-6xl">
@@ -39,11 +38,8 @@ export function Hero() {
             不要な機能を極限まで削ぎ落とし、コンテンツをありのまま、高速に表示します。
           </p>
 
-          <div className="mx-auto mt-8 max-w-md">
-            <PreRegisterForm />
-            <p className="mt-3 text-xs text-muted-foreground">
-              リリース時にいち早くお知らせします。いつでも解除できます。
-            </p>
+          <div className="mx-auto mt-8 max-w-md rounded-2xl border border-border/70 bg-card px-5 py-4 text-sm text-muted-foreground">
+            開発と公開の準備を進めています。完成次第、このサイトで公開します。
           </div>
         </div>
 
