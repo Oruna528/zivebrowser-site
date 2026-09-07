@@ -1,0 +1,11 @@
+name = "zivebrowser-site"
+compatibility_date = "2026-09-07"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Public runtime configuration only. Never place secrets in this file.
+
+[[d1_databases]]
+binding = "DB"
+database_name = "zive-registrations"
+database_id = "REPLACE_WITH_CLOUDFLARE_D1_DATABASE_ID"
