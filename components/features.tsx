@@ -17,7 +17,7 @@ const features = [
     icon: ShieldCheck,
     title: '最新のChromiumベース',
     description:
-      'Electron のアップデートにより、最新の Web セキュリティと規格に追従。安心して最新のサイトを閲覧できます。',
+      'Chromiumのアップデートにより、最新の Web セキュリティと規格に追従。安心して最新のサイトを閲覧できます。',
   },
   {
     icon: Box,
