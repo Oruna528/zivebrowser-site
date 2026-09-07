@@ -12,7 +12,7 @@ const pillars = [
     icon: GitBranch,
     title: '世界レベルのOSSをベースに',
     description:
-      'Chromium / Electron という世界最高水準のオープンソースを土台に、独自の思想で磨き上げます。',
+      'Chromiumという世界最高水準のオープンソースを土台に、独自の思想で磨き上げます。',
   },
   {
     icon: Users,
