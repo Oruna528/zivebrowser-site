@@ -32,7 +32,7 @@ export function SiteFooter() {
             rel="noopener noreferrer"
             className="text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
-            MIT License
+            BSD 3-Clause "New" or "Revised" License
           </a>
         </nav>
 
