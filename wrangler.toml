@@ -1,6 +1,11 @@
 name = "zivebrowser-site"
+main = ".open-next/worker.js"
 compatibility_date = "2026-09-07"
 compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
 
 [vars]
 # Public runtime configuration only. Never place secrets in this file.
