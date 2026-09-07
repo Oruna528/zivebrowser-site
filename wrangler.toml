@@ -8,8 +8,4 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "zive-registrations"
-database_id = ""d1_databases": [{
-    "binding": "DB",
-    "database_name": "zive-registrations",
-    "database_id": "f7b50993-04e9-4865-b788-e1e789fd2b83"
- }]"
+database_id = "f7b50993-04e9-4865-b788-e1e789fd2b83"
